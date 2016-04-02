@@ -42,10 +42,3 @@ loadPokeData(ldb, () => {
     console.log('Server running at : ', server.info.uri)
   })
 })
-
-
-//
-// const pkmn = ldb.getCollection('pokemon')
-// const rndm = pkmn.find({name: 'pikachu'})
-// console.log(rndm)
-// return res(rndm)

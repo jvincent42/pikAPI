@@ -5,6 +5,7 @@ import {expect} from 'chai'
 import loki from 'lokijs'
 import {loadPokeData} from '../src/load_db'
 
+// Database Load
 describe('loadPokeData', () => {
 
   let ldb = new loki('./test/pokebase.json')
@@ -20,6 +21,7 @@ describe('loadPokeData', () => {
 
 })
 
+// Collections tests
 describe('Collections are consistent', () => {
 
   let ldb = new loki('./test/pokebase.json')
